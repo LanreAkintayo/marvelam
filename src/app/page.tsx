@@ -6,10 +6,8 @@ import ProjectsSection from "@/components/sections/Projects";
 import ServicesSection from "@/components/sections/Services";
 import TestimonialsSection from "@/components/sections/Testimonials";
 import { fadeUp, stagger } from "@/lib/animations";
-import { motion, Variants } from "framer-motion";
-import {
-  ArrowRight,
-} from "lucide-react";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 
 export default function HomePage() {
   return (
