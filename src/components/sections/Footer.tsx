@@ -1,11 +1,14 @@
 export default function Footer() {
   return (
     <footer className="border-t border-slate-200/60 dark:border-white/5 py-10 px-6">
-      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p className="text-sm text-slate-500 dark:text-slate-500">
+      <div className="max-w-6xl mx-auto flex flex-col items-center gap-6 sm:flex-row sm:justify-between sm:gap-4">
+        {/* Copyright */}
+        <p className="text-sm text-slate-500 dark:text-slate-500 text-center sm:text-left">
           &copy; {new Date().getFullYear()} Maryam Akintayo. All rights reserved.
         </p>
-        <div className="flex items-center gap-6">
+
+        {/* Nav links */}
+        <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
           <a
             href="#services"
             className="text-sm text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors"
@@ -24,15 +27,8 @@ export default function Footer() {
           >
             Contact
           </a>
-          <span className="w-px h-4 bg-slate-200 dark:bg-white/10" />
-          <a
-            href="mailto:akintayomaryamadeola@gmail.com"
-            className="text-sm text-violet-600 dark:text-violet-400 hover:text-violet-700 dark:hover:text-violet-300 transition-colors"
-          >
-            akintayomaryamadeola@gmail.com
-          </a>
         </div>
       </div>
     </footer>
   );
-}
+}

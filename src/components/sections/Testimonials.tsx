@@ -70,14 +70,14 @@ export default function TestimonialsSection() {
           whileInView="visible"
           viewport={{ once: true, margin: "-60px" }}
           variants={stagger}
-          className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6"
         >
           {TESTIMONIALS.map((t, i) => (
             <motion.blockquote
               key={t.author}
               variants={fadeUp}
               custom={i}
-              className="relative p-7 sm:p-8 rounded-3xl bg-white/70 dark:bg-white/[0.03] backdrop-blur-xl border border-slate-200/80 dark:border-white/[0.06] flex flex-col"
+              className="relative p-6 sm:p-7 md:p-8 rounded-2xl sm:rounded-3xl bg-white/70 dark:bg-white/[0.03] backdrop-blur-xl border border-slate-200/80 dark:border-white/[0.06] flex flex-col"
             >
               <div className="flex gap-1 mb-5">
                 {Array.from({ length: 5 }).map((_, j) => (

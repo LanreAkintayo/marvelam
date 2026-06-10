@@ -15,18 +15,18 @@ export default function ServicesSection() {
       description:
         "Boost your visibility in local search results with optimised Google Business profiles, local citations, and geo-targeted content strategies.",
       icon: Search,
-      accentBg: "bg-violet-500/10 dark:bg-violet-500/15",
-      accentText: "text-violet-600 dark:text-violet-400",
-      glowColor: "group-hover:shadow-violet-500/10",
+      accentBg: "bg-amber-500/10 dark:bg-amber-500/15",
+      accentText: "text-amber-600 dark:text-amber-400",
+      glowColor: "group-hover:shadow-amber-500/10",
     },
     {
       title: "Social Media Marketing",
       description:
         "Build engaged communities and drive conversions with data-backed content calendars, paid social campaigns, and influencer partnerships.",
       icon: TrendingUp,
-      accentBg: "bg-amber-500/10 dark:bg-amber-500/15",
-      accentText: "text-amber-600 dark:text-amber-400",
-      glowColor: "group-hover:shadow-amber-500/10",
+      accentBg: "bg-rose-500/10 dark:bg-rose-500/15",
+      accentText: "text-rose-600 dark:text-rose-400",
+      glowColor: "group-hover:shadow-rose-500/10",
     },
     {
       title: "Email Marketing",
@@ -54,7 +54,7 @@ export default function ServicesSection() {
       className="relative py-24 sm:py-32 px-6 overflow-hidden"
     >
       {/* Background spot glow */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-violet-500/5 blur-[120px] pointer-events-none rounded-full" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-amber-500/5 blur-[120px] pointer-events-none rounded-full" />
 
       <div className="max-w-6xl mx-auto">
         {/* Header section with an asymmetric layout split */}
@@ -68,7 +68,7 @@ export default function ServicesSection() {
           <div className="max-w-xl">
             <motion.span
               variants={fadeUp}
-              className="text-xs font-semibold uppercase tracking-[0.2em] text-violet-600 dark:text-violet-400 mb-3 block"
+              className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-600 dark:text-amber-400 mb-3 block"
             >
               Core Expertise
             </motion.span>
@@ -103,7 +103,7 @@ export default function ServicesSection() {
               key={service.title}
               variants={fadeUp}
               custom={i}
-              className="group relative p-8 rounded-[2rem] bg-white dark:bg-slate-950/40 border border-slate-100 dark:border-white/[0.04] transition-all duration-500 [hover:shadow-[0_24px_60px_-15px_rgba(0,0,0,0.05)]] dark:[hover:shadow-[0_24px_60px_-15px_rgba(0,0,0,0.3)]]"
+              className="group relative p-6 sm:p-8 rounded-2xl sm:rounded-[2rem] bg-white dark:bg-slate-950/40 border border-slate-100 dark:border-white/[0.04] transition-all duration-500 [hover:shadow-[0_24px_60px_-15px_rgba(0,0,0,0.05)]] dark:[hover:shadow-[0_24px_60px_-15px_rgba(0,0,0,0.3)]]"
             >
               {/* Border glow effect */}
               <div className="absolute inset-0 rounded-[2rem] border border-transparent group-hover:border-slate-200 dark:group-hover:border-white/[0.08] transition-colors duration-500 pointer-events-none" />
@@ -112,9 +112,9 @@ export default function ServicesSection() {
               <div
                 className={`absolute -inset-px rounded-[2rem] bg-gradient-to-b opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none [mask-image:radial-gradient(ellipse_at_top_left,white_10%,transparent_50%)] dark:[mask-image:radial-gradient(ellipse_at_top_left,white_20%,transparent_60%)] ${
                   service.title.includes("SEO")
-                    ? "from-violet-500/10"
+                    ? "from-amber-500/10"
                     : service.title.includes("Social")
-                      ? "from-amber-500/10"
+                      ? "from-rose-500/10"
                       : service.title.includes("Email")
                         ? "from-emerald-500/10"
                         : "from-sky-500/10"

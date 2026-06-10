@@ -12,8 +12,8 @@ export default function ProjectsSection() {
       skills: ["Google Business Profile", "Local SEO", "Optimization"],
       icon: Target,
       metric: "Live on Search & Maps",
-      accent: "from-violet-500/10 to-purple-500/10",
-      accentText: "text-violet-600 dark:text-violet-400",
+      accent: "from-amber-500/10 to-orange-500/10",
+      accentText: "text-amber-600 dark:text-amber-400",
     },
     {
       id: "project-02",
@@ -65,7 +65,7 @@ export default function ProjectsSection() {
           <div className="max-w-xl">
             <motion.span
               variants={fadeUp}
-              className="text-xs font-semibold uppercase tracking-[0.2em] text-violet-600 dark:text-violet-400 mb-3 block"
+              className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-600 dark:text-amber-400 mb-3 block"
             >
               Selected Work
             </motion.span>
@@ -99,7 +99,7 @@ export default function ProjectsSection() {
               key={project.id}
               variants={fadeUp}
               custom={i}
-              className="group relative p-8 sm:p-10 rounded-[2rem] bg-white dark:bg-slate-950/40 border border-slate-100 dark:border-white/[0.04] transition-all duration-500 [hover:shadow-[0_32px_64px_-20px_rgba(0,0,0,0.04)]] dark:[hover:shadow-[0_32px_64px_-20px_rgba(0,0,0,0.25)]] flex flex-col justify-between"
+              className="group relative p-6 sm:p-8 md:p-10 rounded-2xl sm:rounded-[2rem] bg-white dark:bg-slate-950/40 border border-slate-100 dark:border-white/[0.04] transition-all duration-500 [hover:shadow-[0_32px_64px_-20px_rgba(0,0,0,0.04)]] dark:[hover:shadow-[0_32px_64px_-20px_rgba(0,0,0,0.25)]] flex flex-col justify-between"
             >
               {/* Context Spotlight Mask */}
               <div
@@ -131,7 +131,7 @@ export default function ProjectsSection() {
               </div>
 
               {/* Bottom Metadata Footer Anchor */}
-              <div className="relative z-10 pt-6 border-t border-slate-100/70 dark:border-white/[0.04] flex flex-wrap items-center justify-between gap-4 mt-auto">
+              <div className="relative z-10 pt-5 sm:pt-6 border-t border-slate-100/70 dark:border-white/[0.04] flex flex-col xs:flex-row flex-wrap items-start xs:items-center justify-between gap-3 sm:gap-4 mt-auto">
                 {/* Embedded Mini Skills Array */}
                 <div className="flex flex-wrap gap-2">
                   {project.skills.slice(0, 3).map((skill) => (

@@ -71,7 +71,7 @@ export default function RootLayout({
     >
       <body className="font-sans antialiased" suppressHydrationWarning>
         <NextTopLoader
-          color="#a855f7"
+          color="#f59e0b"
           initialPosition={0.08}
           crawlSpeed={200}
           height={3}

@@ -16,7 +16,7 @@ export default function HeroSection() {
         <motion.div
           animate={{ scale: [1, 1.15, 1], opacity: [0.2, 0.35, 0.2] }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute -top-[15%] -left-[10%] w-[55%] h-[55%] rounded-full bg-violet-500/10 dark:bg-violet-500/15 blur-[140px]"
+          className="absolute -top-[15%] -left-[10%] w-[55%] h-[55%] rounded-full bg-amber-500/10 dark:bg-amber-500/15 blur-[140px]"
         />
         <motion.div
           animate={{ scale: [1, 1.2, 1], opacity: [0.15, 0.3, 0.15] }}
@@ -40,7 +40,7 @@ export default function HeroSection() {
           className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight text-slate-900 dark:text-white leading-[1.1] mb-8"
         >
           Hi, I&rsquo;m{" "}
-          <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-violet-600 via-purple-600 to-amber-600 dark:from-violet-400 dark:via-fuchsia-400 dark:to-amber-400">
+          <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-amber-500 via-yellow-500 to-orange-500 dark:from-amber-400 dark:via-yellow-300 dark:to-orange-400">
             Maryam Akintayo
           </span>
         </motion.h1>
@@ -53,9 +53,9 @@ export default function HeroSection() {
         >
           Digital marketer helping small businesses get found, get followed, and
           get results — through{" "}
-          <span className="text-slate-900 dark:text-slate-200 font-medium border-b-2 border-violet-500/30">SEO</span>,{" "}
-          <span className="text-slate-900 dark:text-slate-200 font-medium border-b-2 border-fuchsia-500/30">social media</span>,{" "}
-          <span className="text-slate-900 dark:text-slate-200 font-medium border-b-2 border-emerald-500/30">email marketing</span> &amp; research.
+          <span className="text-slate-900 dark:text-slate-200 font-medium border-b-2 border-amber-500/30">SEO</span>,{" "}
+          <span className="text-slate-900 dark:text-slate-200 font-medium border-b-2 border-orange-500/30">social media</span>,{" "}
+          <span className="text-slate-900 dark:text-slate-200 font-medium border-b-2 border-yellow-500/30">email marketing</span> &amp; research.
         </motion.p>
 
         {/* CTA buttons */}
@@ -66,7 +66,7 @@ export default function HeroSection() {
         >
           <a
             href="#projects"
-            className="group inline-flex items-center justify-center gap-2 h-14 px-8 rounded-full bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-semibold text-base transition-all duration-300 hover:bg-slate-800 dark:hover:bg-slate-100 hover:scale-[1.02] hover:shadow-xl hover:shadow-violet-500/10 active:scale-[0.98]"
+            className="group inline-flex items-center justify-center gap-2 h-14 px-8 rounded-full bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-semibold text-base transition-all duration-300 hover:bg-slate-800 dark:hover:bg-slate-100 hover:scale-[1.02] hover:shadow-xl hover:shadow-amber-500/10 active:scale-[0.98]"
           >
             View My Work
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
