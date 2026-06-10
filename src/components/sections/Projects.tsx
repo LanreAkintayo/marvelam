@@ -72,7 +72,7 @@ export default function ProjectsSection() {
             <motion.h2
               variants={fadeUp}
               custom={1}
-              className="font-[family-name:var(--font-playfair)] text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white tracking-tight leading-[1.15]"
+              className="text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white tracking-tight leading-[1.15]"
             >
               Case studies that reveal the process
             </motion.h2>

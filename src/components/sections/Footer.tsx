@@ -24,6 +24,13 @@ export default function Footer() {
           >
             Contact
           </a>
+          <span className="w-px h-4 bg-slate-200 dark:bg-white/10" />
+          <a
+            href="mailto:akintayomaryamadeola@gmail.com"
+            className="text-sm text-violet-600 dark:text-violet-400 hover:text-violet-700 dark:hover:text-violet-300 transition-colors"
+          >
+            akintayomaryamadeola@gmail.com
+          </a>
         </div>
       </div>
     </footer>

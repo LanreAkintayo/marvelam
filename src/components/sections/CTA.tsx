@@ -32,12 +32,25 @@ export default function CTASection() {
           <motion.a
             variants={fadeUp}
             custom={2}
-            href="mailto:hello@maryamakintayo.com"
+            href="mailto:akintayomaryamadeola@gmail.com"
             className="group inline-flex items-center justify-center gap-2 h-14 px-10 rounded-full bg-gradient-to-r from-violet-600 to-teal-500 text-white font-semibold text-base transition-all duration-300 hover:scale-[1.03] hover:shadow-xl hover:shadow-violet-500/25 active:scale-[0.97]"
           >
             Say Hello
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </motion.a>
+          <motion.p
+            variants={fadeUp}
+            custom={3}
+            className="mt-5 text-sm text-slate-400 dark:text-slate-500"
+          >
+            or email directly at{" "}
+            <a
+              href="mailto:akintayomaryamadeola@gmail.com"
+              className="text-violet-600 dark:text-violet-400 hover:underline underline-offset-4 transition-colors"
+            >
+              akintayomaryamadeola@gmail.com
+            </a>
+          </motion.p>
         </motion.div>
       </div>
     </section>

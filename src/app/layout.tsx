@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display, Roboto, Roboto_Mono } from "next/font/google";
+import { Inter, Montserrat, Playfair_Display, Raleway, Roboto, Roboto_Mono } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
 import "./globals.css";
 import Providers from "./providers";
@@ -33,6 +33,21 @@ const robotoMono = Roboto_Mono({
   display: "swap",
 });
 
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-montserrat",
+  display: "swap",
+});
+
+const raleway = Raleway({
+  subsets: ["latin"],
+  weight: ["500", "700"],
+  variable: "--font-raleway",
+  display: "swap",
+});
+
+
 
 export const metadata: Metadata = {
   title: "Maryam Akintayo — Digital Marketing Portfolio",
@@ -52,7 +67,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${roboto.variable} ${robotoMono.variable}`}
+      className={`${roboto.variable} ${robotoMono.variable} ${raleway.variable} ${montserrat.variable}`}
     >
       <body className="font-sans antialiased" suppressHydrationWarning>
         <NextTopLoader

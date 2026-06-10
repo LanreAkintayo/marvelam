@@ -78,6 +78,7 @@ export default function HeroSection() {
             Get in Touch
           </a>
         </motion.div>
+
       </motion.div>
 
       {/* Scroll indicator */}
