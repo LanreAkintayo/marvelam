@@ -7,7 +7,7 @@ import { Menu, X, ArrowRight } from "lucide-react";
 const NAV_LINKS = [
   { label: "Services", href: "#services" },
   { label: "Projects", href: "#projects" },
-  { label: "Testimonials", href: "#testimonials" },
+//   { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -64,7 +64,7 @@ export default function Navbar() {
             : "py-5 bg-transparent"
         }`}
       >
-        <nav className="max-w-6xl px-6 flex items-center justify-between">
+        <nav className="mx-2 sm:mx-10 px-6 flex items-center justify-between">
           {/* ── Logo / Brand ──────────────────────────────────── */}
           <a
             href="#hero"
