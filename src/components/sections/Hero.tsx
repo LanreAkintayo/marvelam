@@ -37,11 +37,11 @@ export default function HeroSection() {
         <motion.h1
           variants={fadeUp}
           custom={2}
-          className="font-[family-name:var(--font-playfair)] text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight text-slate-900 dark:text-white leading-[1.1] mb-8"
+          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight text-slate-900 dark:text-white leading-[1.1] mb-8"
         >
           Hi, I&rsquo;m{" "}
           <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-violet-600 via-purple-600 to-amber-600 dark:from-violet-400 dark:via-fuchsia-400 dark:to-amber-400">
-            Maryam
+            Maryam Akintayo
           </span>
         </motion.h1>
 
