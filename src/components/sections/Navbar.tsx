@@ -43,7 +43,7 @@ export default function Navbar() {
             : "py-5 bg-transparent"
         }`}
       >
-        <nav className="max-w-6xl mx-auto px-6 flex items-center justify-between">
+        <nav className="mx-20 px-6 flex items-center justify-between">
           {/* ── Logo / Brand ──────────────────────────────────── */}
           <a
             href="#hero"
